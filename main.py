@@ -10,7 +10,7 @@ def get_book_text():
     else:
         book_path = sys.argv[1]
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print("Analyzing book found at: " + book_path)
     
     with open(book_path) as book:
         text = book.read()
